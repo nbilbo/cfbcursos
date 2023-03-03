@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.main-title {
+    font-size: 1em;
+    text-align: center;
+}
+
+.sub-title {
+    opacity: .7;
+    font-size: 1em;
+    text-align: center;
+}
+
+.display {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 5em;
+}
+
+.buttons-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.selects-container {
+    display: grid;
+    margin-bottom: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.select-container {
+    text-align: center;
+}
+
+.label {
+    font-size: 1em;
+}
+
+.button {
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

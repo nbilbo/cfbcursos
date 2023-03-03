@@ -1,0 +1,28 @@
+.controles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.controle {
+    display: grid;
+    text-align: center;
+}
+
+.button {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.palco {
+    border: 2px solid black;
+    min-height: 100vh;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.bola {
+    position: absolute;
+    border-radius: 100px;
+}

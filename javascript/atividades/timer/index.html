@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css"/>
+        <title>Timer</title>
+    </head>
+
+    <body>
+        <main class="main">
+            <h1 class="main-title">Timer</h1>
+            <h2 class="sub-title">Bem-vindo(a)</h2>
+            <div class="timer">
+                <p class="display">00:00:00</p>
+
+                <div class="buttons-container">
+                    <button class="button" id="start">Iniciar</button>
+                </div>
+
+                <div class="selects-container">
+                    <div class="select-container">
+                        <label class="label" for="select-hours">Horas</label>
+                        <select class="select" id="select-hours">
+                        </select>
+                    </div>
+                    <div class="select-container">
+                        <label class="label" for="select-minutes">Minutos</label>
+                        <select class="select" id="select-minutes">
+                        </select>
+                    </div>
+                    <div class="select-container">
+                        <label class="label"  for="select-seconds">Segundos</label>
+                        <select class="select" id="select-seconds">
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
