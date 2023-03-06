@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.painel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.campo {
+    height: 100vh;
+    border: 2px solid white;
+    position: relative;
+    overflow: hidden;
+}
+
+.carro {
+    position: absolute;
+}
